@@ -81,3 +81,164 @@
     
 </body>
 </html>
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+    ont-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: 	 #000000;
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.header {
+    background-color: red;
+}
+
+.logo{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a{
+    color:  rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color:  rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+section{
+    padding: 100px 200px;
+
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/ayoub.jpg) no-repeat;
+    background-size: 30em;
+    background-position: 1000px 150px;
+    background-color: #ADD8E6;
+}
+
+.main  h2 {
+    color: rgb(3, 3, 3);
+    font-size: 2em;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: crimson;
+    font-size: 50px;
+    font-weight: 600;
+    font-style: oblique;
+}
+.main p {
+    display: flex;
+    font-size: medium;
+    color: black;
+    font-weight: 500;
+    display: flex;
+    font-size: 1.8em ;
+    font-style: italic;
+    padding: 1em ;
+}
+
+.social-icons a{
+    color: aliceblue;
+    font-size: 2em;
+    padding-right: 30px;
+
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: aquamarine;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding: 50px 800px 20px 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: aquamarine;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+    border-radius: 5px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+     
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon{
+    font-size: 3em;
+    text-align: center;
+
+}
+
+@media (max-width:1023px){
+    header{
+        padding: 8px 20px;
+        font-size: smaller;
+    }
+    .navigationa{
+        padding-left: 10px;
+
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    section{
+        padding: 80px 20px;
+
+    }
+    .main-content h3{
+        font: size 1.4em;em;
+
+    }
+    .content{
+        flex-direction: column;
+        align-items: centre;
+    }
+}
